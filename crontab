@@ -1,4 +1,4 @@
 # grabs xml at 0000 and 1200 every day
 # Thanks https://crontab-generator.org/
-0 0,12 * * * /usr/epggrab/grab.sh >> /var/log/cron.log 2>&1
+0 0,12 * * * /bin/bash /usr/epggrab/grab.sh >> /var/log/cron.log 2>&1
 # Don't remove the empty line at the end of this file. It is required to run the cron job

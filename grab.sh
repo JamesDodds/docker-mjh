@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 scr_fp=$(dirname "$0")
 xml_path=/data/guide.xml
@@ -20,12 +20,12 @@ do
     then
         cat /tmp/guide-${i}.xml >> $xml_path
         echo "Added ${i} to guide.xml"
-        rm -rf /tmp/guide-${i}.xml
+        #rm -rf /tmp/guide-${i}.xml
         echo "Deleted guide-${i}.xml"
     else
         tail -n +3 /tmp/guide-${i}.xml >> $xml_path
         echo "Added ${i} to guide.xml"
-        rm -rf /tmp/guide-${i}.xml
+        #rm -rf /tmp/guide-${i}.xml
         echo "Deleted guide-${i}.xml"
     fi
     let counter=counter+1
