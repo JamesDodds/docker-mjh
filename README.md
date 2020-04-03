@@ -1,5 +1,5 @@
 # docker-mjh
-Simple docker container to grab EPG and m3u8 IPTV files that [Matt Huisman] [has generated](https://www.matthuisman.nz/2019/02/libreelec-tvheadend-iptv-freeview-au.html). 
+Simple docker container to grab EPG files that [Matt Huisman] [has generated](https://www.matthuisman.nz/2019/02/libreelec-tvheadend-iptv-freeview-au.html). 
 
 
 # Usage
